@@ -24,4 +24,16 @@
        <constructor-arg value="10" type="int"></constructor-arg>
        <constructor-arg value="mahesh" type="String"></constructor-arg>
        </bean>
-</beans>
+       
+       <!-- QuestionAns class use list type of collection using constructor -->
+       <bean id="list" class="com.constructorlist.QuestionAns">
+       <constructor-arg value="1" type="int"></constructor-arg>
+       <constructor-arg value ="how are you" type="String"></constructor-arg>
+       <constructor-arg>
+       <list>
+       <value>i am fine</value>
+       <value>not good</value>
+       </list>
+       </constructor-arg>
+       </bean>
+      </beans>
