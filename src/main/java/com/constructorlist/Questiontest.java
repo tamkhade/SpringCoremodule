@@ -6,7 +6,6 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 
 public class Questiontest {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Resource r=new ClassPathResource("Applicationcontext.xml");

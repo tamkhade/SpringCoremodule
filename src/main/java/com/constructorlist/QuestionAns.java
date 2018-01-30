@@ -19,7 +19,6 @@ public class QuestionAns {
 		this.question=question;
 		this.Answer=ans;	
 	}
-	
 	void display()
 	{
 		System.out.println(question);
