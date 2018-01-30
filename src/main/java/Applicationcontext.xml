@@ -56,4 +56,16 @@
        </list>
        </property>
        </bean>
+
+       <!--Employee map class using setter method using map  -->
+       <bean id="map" class="com.settermap.Employeemap">
+       <property name="id" value="1"></property>
+       <property name="Empquestion" value="what is your salary"></property>
+       <property name="Empanswers">
+       <map>
+      <entry key="12000" value="mahesh tamkhade"></entry>
+      <entry key="20000" value="nikhil kenjale"></entry>
+       </map>
+       </property>
+       </bean> 
       </beans>
