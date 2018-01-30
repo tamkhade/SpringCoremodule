@@ -36,4 +36,24 @@
        </list>
        </constructor-arg>
        </bean>
+       
+       
+       <!--Employeelist class using setter method using list type  -->
+       
+       <bean id="emp" class="com.setterlist.Employeelist" >
+       <property name="empid">
+       <value>2</value>
+       </property>
+       <property name="empname">
+       <value>employee name </value>
+       </property>
+       <property name="emplist">
+       <list>
+       <value>mahesh</value>
+       <value>nikhil</value>
+       <value>darshan</value>
+       <value>abhay</value> 
+       </list>
+       </property>
+       </bean>
       </beans>
