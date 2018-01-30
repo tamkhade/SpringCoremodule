@@ -9,7 +9,6 @@ public class Employeetest {
 		// TODO Auto-generated method stub
 		
 		ApplicationContext a=new ClassPathXmlApplicationContext("Applicationcontext.xml");
-		
 		Employeemap ma=(Employeemap) a.getBean("map");
 		ma.displaypempinfo();
 

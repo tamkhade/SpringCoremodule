@@ -1,5 +1,7 @@
 package com.settermap;
 
+import java.awt.List;
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -12,6 +14,7 @@ private int id;
 private String Empquestion;
 
 private Map<String, String> Empanswers;
+
 
 public int getId() {
 	return id;
@@ -38,7 +41,6 @@ public void setEmpanswers(Map<String, String> empanswers) {
 }
 
 
-
 void displaypempinfo()
 {
 	Set<Entry<String, String>> e=Empanswers.entrySet();
@@ -53,7 +55,4 @@ void displaypempinfo()
 	
 	
 }
-
-
-
 }

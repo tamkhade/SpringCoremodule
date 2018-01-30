@@ -56,7 +56,7 @@
        </list>
        </property>
        </bean>
-
+       
        <!--Employee map class using setter method using map  -->
        <bean id="map" class="com.settermap.Employeemap">
        <property name="id" value="1"></property>
@@ -67,5 +67,19 @@
       <entry key="20000" value="nikhil kenjale"></entry>
        </map>
        </property>
-       </bean> 
+       </bean>
+       
+       <!--using constructor and map -->
+      <bean id="cmap" class="com.constructormap.Constructormap">
+      <constructor-arg value="3" type="int"></constructor-arg>
+      <constructor-arg value="mahesh" type="String"></constructor-arg>
+      <constructor-arg>
+      <map>
+      <entry key="15000" value="hiii first"> </entry>
+      <entry key="16000" value="hii second"> </entry>
+      </map>
+      </constructor-arg>
+      </bean>
+
+        
       </beans>
